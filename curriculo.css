@@ -89,13 +89,14 @@ h2 {
 }
 
 .formacao {
-    color: #666;
+    color: #000;
     margin-left: 20px;
 }
 
-.certificacoes {
-    color: #666;
-    margin-left: 20px;
+.formacao p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
 }
 
 hr {
