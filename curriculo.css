@@ -1,29 +1,73 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: normal;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bold;
 }
 
 .contato {
-    color: #666;
-    margin-left: 20px;
+    color: #000;
+    margin-left: 0;
+    font-size: 14px;
+    line-height: 0.5;
+}
+
+.contato a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
 }
 
 .objetivo {
-    color: #666;
-    margin-left: 20px;
+    color: #000;
+    margin-left: 0;
+}
+
+.objetivo p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.habilidades {
+    color: #000;
+    margin-left: 0;
+}
+
+.habilidades-grid {
+    display: flex;
+    gap: 80px;
+}
+
+.coluna {
+    flex: 1;
+}
+
+.coluna p {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
 }
 
 .Habilidades {
@@ -44,4 +88,10 @@ h2 {
 .certificacoes {
     color: #666;
     margin-left: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 20px 0;
 }
